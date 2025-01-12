@@ -8,7 +8,7 @@ st.title("Student Achievement Prediction")
 st.write("This app allows you to predict the target (Enrolled, Dropout, Graduate) based on your inputs.")
 
 # Load the pre-trained model
-model_path = 'model.pkl'
+model_path = 'MLPROJECT/model.pkl'
 try:
     clf = joblib.load(model_path)
 except FileNotFoundError:
